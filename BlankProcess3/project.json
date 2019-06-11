@@ -1,0 +1,29 @@
+{
+  "name": "BlankProcess3",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.7.0-alpha.350500]",
+    "UiPath.Mail.Activities": "[1.6.0-alpha.352585]",
+    "UiPath.System.Activities": "[19.6.0-alpha.351711]",
+    "UiPath.UIAutomation.Activities": "[19.6.0-alpha.354207]"
+  },
+  "schemaVersion": "3.2",
+  "studioVersion": "19.6.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "expressionLanguage": "VisualBasic",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  },
+  "webServices": []
+}
